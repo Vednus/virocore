@@ -165,7 +165,6 @@
 		13B672A3212229B20040FB72 /* VRORenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF39691CB4242000A86CA3 /* VRORenderer.cpp */; };
 		13B672A4212229B20040FB72 /* VROVector3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F1071E71BF7D9C5003B3C3F /* VROVector3f.cpp */; };
 		13B672A6212229B20040FB72 /* VROGeometryElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F4DCE3B1BFBE54200061DD7 /* VROGeometryElement.cpp */; };
-		13B672A7212229B20040FB72 /* VROSoundDataGVR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A130DA11E4018540050D83B /* VROSoundDataGVR.cpp */; };
 		13B672A8212229B20040FB72 /* VROFrameSynchronizerInternal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F4AD91E1D42D60C0044B3F0 /* VROFrameSynchronizerInternal.cpp */; };
 		13B672A9212229B20040FB72 /* VROBone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D1BB11EC3785C00E7BF44 /* VROBone.cpp */; };
 		13B672AA212229B20040FB72 /* VROBillboardConstraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8F65F7871C90CD4700415115 /* VROBillboardConstraint.cpp */; };
@@ -510,7 +509,6 @@
 		13B6742C212229B20040FB72 /* VROAnimationVector3f.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F548E481C23656000556688 /* VROAnimationVector3f.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B6742D212229B20040FB72 /* VROKeyframeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5CAA171F1FAD5800FEEC7E /* VROKeyframeAnimation.h */; };
 		13B6742E212229B20040FB72 /* VROMaterialSubstrateOpenGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB6591D1CD839FC00D036EB /* VROMaterialSubstrateOpenGL.h */; };
-		13B6742F212229B20040FB72 /* VROSoundDataGVR.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A130DA21E4018540050D83B /* VROSoundDataGVR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B67430212229B20040FB72 /* VRORenderToTextureDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F292BCA20A9125E00635C0D /* VRORenderToTextureDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B67431212229B20040FB72 /* VRORendererTestHarness.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD2A50C1F81283800E831A6 /* VRORendererTestHarness.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13B67432212229B20040FB72 /* VROARObjectAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AB5B73A211B72120030906A /* VROARObjectAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -587,8 +585,6 @@
 		8A130D761E3A93820050D83B /* VROSound.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A130D731E3A93720050D83B /* VROSound.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A130D8C1E3BBEA90050D83B /* VROSoundDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A130D8A1E3BBC360050D83B /* VROSoundDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A130D8D1E3BBEAE0050D83B /* VROSoundDelegateiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A130D8B1E3BBCA40050D83B /* VROSoundDelegateiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A130DA31E4018550050D83B /* VROSoundDataGVR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A130DA11E4018540050D83B /* VROSoundDataGVR.cpp */; };
-		8A130DA41E4018550050D83B /* VROSoundDataGVR.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A130DA21E4018540050D83B /* VROSoundDataGVR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A130DA51E40187F0050D83B /* VROSoundData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A130DA01E4018250050D83B /* VROSoundData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A130DA71E401B910050D83B /* VROSoundDataDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A130DA61E401B910050D83B /* VROSoundDataDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A1462D11F327D1500643EF4 /* dark_circle_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1462D01F327D1500643EF4 /* dark_circle_shadow.png */; };
@@ -1542,7 +1538,6 @@
 		A5EC65B61EBFF57B00FE220E /* VROPhysicsBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5EC65B31EBFF42100FE220E /* VROPhysicsBody.cpp */; };
 		A5EC65B71EBFF5A100FE220E /* VROPhysicsBody.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EC65B41EBFF42100FE220E /* VROPhysicsBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5EC65B81EC004E100FE220E /* VROPhysicsShape.h in Headers */ = {isa = PBXBuildFile; fileRef = A5EC65941EBD16F000FE220E /* VROPhysicsShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAD7E32D2DFA518AEAAB48C2 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1609,8 +1604,6 @@
 		8A130D8A1E3BBC360050D83B /* VROSoundDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VROSoundDelegate.h; sourceTree = "<group>"; };
 		8A130D8B1E3BBCA40050D83B /* VROSoundDelegateiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VROSoundDelegateiOS.h; sourceTree = "<group>"; };
 		8A130DA01E4018250050D83B /* VROSoundData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VROSoundData.h; sourceTree = "<group>"; };
-		8A130DA11E4018540050D83B /* VROSoundDataGVR.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = VROSoundDataGVR.cpp; sourceTree = "<group>"; };
-		8A130DA21E4018540050D83B /* VROSoundDataGVR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VROSoundDataGVR.h; sourceTree = "<group>"; };
 		8A130DA61E401B910050D83B /* VROSoundDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VROSoundDataDelegate.h; sourceTree = "<group>"; };
 		8A1462D01F327D1500643EF4 /* dark_circle_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dark_circle_shadow.png; path = ViroSample/dark_circle_shadow.png; sourceTree = "<group>"; };
 		8A2DA3AB1F8B2C0F001FC3BA /* VROInputPresenterAR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VROInputPresenterAR.h; sourceTree = "<group>"; };
@@ -2588,7 +2581,6 @@
 				A5EC65891EB3ECE200FE220E /* libLinearMath.a in Frameworks */,
 				8F1664A61E5E43260062EBCE /* Accelerate.framework in Frameworks */,
 				8FDDE2121CD00F2600674DE2 /* CoreText.framework in Frameworks */,
-				EAD7E32D2DFA518AEAAB48C2 /* (null) in Frameworks */,
 				26767B51CD2D36348A18B0B9 /* Pods_ViroKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3165,8 +3157,6 @@
 			children = (
 				8A130DA01E4018250050D83B /* VROSoundData.h */,
 				8A130DA61E401B910050D83B /* VROSoundDataDelegate.h */,
-				8A130DA11E4018540050D83B /* VROSoundDataGVR.cpp */,
-				8A130DA21E4018540050D83B /* VROSoundDataGVR.h */,
 				8A130D731E3A93720050D83B /* VROSound.h */,
 				8A130D741E3A93720050D83B /* VROSoundDelegateInternal.h */,
 				8F65F8291CA19A9A00415115 /* VROAudioPlayer.h */,
@@ -4238,7 +4228,6 @@
 				13B6742C212229B20040FB72 /* VROAnimationVector3f.h in Headers */,
 				13B6742D212229B20040FB72 /* VROKeyframeAnimation.h in Headers */,
 				13B6742E212229B20040FB72 /* VROMaterialSubstrateOpenGL.h in Headers */,
-				13B6742F212229B20040FB72 /* VROSoundDataGVR.h in Headers */,
 				13B67430212229B20040FB72 /* VRORenderToTextureDelegate.h in Headers */,
 				13B67431212229B20040FB72 /* VRORendererTestHarness.h in Headers */,
 				130F15EE22DD3ED6009983B3 /* VROVisionEngine.h in Headers */,
@@ -4579,7 +4568,6 @@
 				8F548E4A1C23656000556688 /* VROAnimationVector3f.h in Headers */,
 				8F5CAA191F1FAD5800FEEC7E /* VROKeyframeAnimation.h in Headers */,
 				8FB6591F1CD839FC00D036EB /* VROMaterialSubstrateOpenGL.h in Headers */,
-				8A130DA41E4018550050D83B /* VROSoundDataGVR.h in Headers */,
 				8F292BCB20A9125F00635C0D /* VRORenderToTextureDelegate.h in Headers */,
 				8FD2A50E1F81283800E831A6 /* VRORendererTestHarness.h in Headers */,
 				8AB5B73B211B72120030906A /* VROARObjectAnchor.h in Headers */,
@@ -4699,7 +4687,7 @@
 					};
 					8FD4DECC1C18ECD4003DC425 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = BC32QNM6AD;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -5338,7 +5326,6 @@
 				13B672A4212229B20040FB72 /* VROVector3f.cpp in Sources */,
 				13B672A6212229B20040FB72 /* VROGeometryElement.cpp in Sources */,
 				8FAE5051222C3CD40043220B /* VRODeviceUtil.m in Sources */,
-				13B672A7212229B20040FB72 /* VROSoundDataGVR.cpp in Sources */,
 				13B672A8212229B20040FB72 /* VROFrameSynchronizerInternal.cpp in Sources */,
 				13B672A9212229B20040FB72 /* VROBone.cpp in Sources */,
 				13B672AA212229B20040FB72 /* VROBillboardConstraint.cpp in Sources */,
@@ -5620,7 +5607,6 @@
 				8FD4DEF71C18ED19003DC425 /* VROVector3f.cpp in Sources */,
 				A5092868220907DC00BAACE5 /* VROBoneConstraint.cpp in Sources */,
 				8FD4DF0C1C18ED3C003DC425 /* VROGeometryElement.cpp in Sources */,
-				8A130DA31E4018550050D83B /* VROSoundDataGVR.cpp in Sources */,
 				8F4AD9201D42D60C0044B3F0 /* VROFrameSynchronizerInternal.cpp in Sources */,
 				8F2D1BB31EC3785C00E7BF44 /* VROBone.cpp in Sources */,
 				8F65F7891C90CD4700415115 /* VROBillboardConstraint.cpp in Sources */,
@@ -6177,10 +6163,12 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -6191,6 +6179,7 @@
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "$(inherited)";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6224,10 +6213,6 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/GoogleToolboxForMac/GoogleToolboxForMac.framework/Headers\"",
 					"-isystem",
 					"\"${PODS_ROOT}/Headers/Public\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/GVRAudioSDK\"",
-					"-isystem",
-					"\"${PODS_ROOT}/Headers/Public/GVRSDK\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -6259,6 +6244,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viro.ViroKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -6272,9 +6259,11 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -6285,6 +6274,7 @@
 				);
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "$(inherited)";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "$(inherited)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6342,6 +6332,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.viro.ViroKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
